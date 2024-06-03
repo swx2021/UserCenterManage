@@ -1,3 +1,4 @@
+#公共配置（任何环境都一样的配置）
 Spring:
   application:
     name: UserCenter
