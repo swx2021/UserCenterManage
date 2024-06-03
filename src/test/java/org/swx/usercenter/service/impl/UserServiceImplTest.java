@@ -31,6 +31,7 @@ class UserServiceImplTest {
         memberID = "2215151";
         result = userService.userRegister(userAccount, userPassword, checkPassword);
         Assertions.assertEquals(-1,result);
+        //测试推送
         //3.校验账户密码以及确认密码是否合法
         userPassword = "123456";
         checkPassword = "123456";
