@@ -75,6 +75,18 @@ public class User implements Serializable {
     @TableLogic
     private Integer isDelete;
 
+    /**
+     * 用户角色
+     * 0 普通用户
+     * 1 管理员
+     */
+    private Integer role;
+
+    /**
+     * 会员编号
+     */
+    private String memberID;
+
     @TableField(exist = false)
     private static final long serialVersionUID = 1L;
 
